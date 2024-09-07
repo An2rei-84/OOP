@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1cfe2c3-0e76-4051-9f17-5c80a441417d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="a1cfe2c3-0e76-4051-9f17-5c80a441417d" name="Changes" comment="start project1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/tests/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_Category_end_Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Category_end_Product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +28,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/home_work_14_1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2lWd2V7QOozOsfO38zEKvprMQ1D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,18 +50,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_Category_end_Product.TestAddProduct.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.TestCategory.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.TestCategory.test_add_product.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.TestCategory.test_category_and_product_count.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_category_count.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_category_init.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_count.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_init.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_add_product.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_invalid_prices.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_new_list_products.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_new_product.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_new_product.test_add_product.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_new_product.test_add_product.test_valid_prices.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_valid_prices.executor": "Run",
     "Python tests.Python tests in test_Category_end_Product.py.executor": "Run",
     "Python.Category.executor": "Run",
     "Python.main.executor": "Run",
     "Python.read_json.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/home__work__14__2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -82,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategoryAndProduct" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category_end_Product.TestCategory" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,11 +110,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategoryAndProduct&quot;" />
+      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategory&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategoryAndProduct.test_category_count" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category_end_Product.TestCategory.test_add_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,11 +125,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategoryAndProduct.test_category_count&quot;" />
+      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategory.test_add_product&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategoryAndProduct.test_category_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category_end_Product.TestCategory.test_category_and_product_count" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,11 +140,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategoryAndProduct.test_category_init&quot;" />
+      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategory.test_category_and_product_count&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_count" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category_end_Product.test_add_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +155,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategoryAndProduct.test_product_count&quot;" />
+      <option name="_new_target" value="&quot;test_Category_end_Product.test_add_product&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category_end_Product.test_new_list_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,17 +170,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategoryAndProduct.test_product_init&quot;" />
+      <option name="_new_target" value="&quot;test_Category_end_Product.test_new_list_products&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_category_init" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_init" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_category_count" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_count" />
+        <item itemvalue="Python tests.Python tests for test_Category_end_Product.test_new_list_products" />
+        <item itemvalue="Python tests.Python tests for test_Category_end_Product.test_add_product" />
+        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategory.test_category_and_product_count" />
+        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategory.test_add_product" />
+        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +200,36 @@
       <option name="presentableId" value="Default" />
       <updated>1725299559720</updated>
     </task>
+    <task id="LOCAL-00001" summary="start project">
+      <option name="closed" value="true" />
+      <created>1725537570942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725537570942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="start project">
+      <option name="closed" value="true" />
+      <created>1725537644401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725537644401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="start project1">
+      <option name="closed" value="true" />
+      <created>1725553672096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725553672096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start project" />
+    <MESSAGE value="start project1" />
+    <option name="LAST_COMMIT_MESSAGE" value="start project1" />
   </component>
 </project>

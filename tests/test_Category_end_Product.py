@@ -37,3 +37,42 @@ class TestCategoryAndProduct(unittest.TestCase):
         product = Product(self.product_name, self.product_description, self.product_price, self.product_quantity)
         category.products.append(product)
         self.assertEqual(category.product_count, 0)
+
+
+def test_new_product():
+    product_dict = {'name': 'Банан', 'description': 'Жёлтый банан', 'price': 20, 'quantity': 20}
+    product = Product.new_product(product_dict)
+    assert product.name == 'Банан'
+    assert product.description == 'Жёлтый банан'
+    assert product.price == 20
+    assert product.quantity == 20
+
+
+def test_valid_prices():
+    product = Product('Яблоко', 'Зелёное яблоко', 50, 10)
+    product.price = 70
+    assert product.price == 70
+
+
+def test_add_product():
+    category = Category('Яблоко', 'Зелёное яблоко', [Product('Яблоко', 'Зелёное яблоко', 50, 10)])
+
+    category.add_product(Product('Красные яблоки', 'Яблоко', 70, 5))
+
+    assert len(category.products) == 2
+    assert category.product_count == 2
+
+
+def test_new_list_products():
+    category = Category('Яблоко', 'Зелёное яблоко', [
+        Product('Яблоко', 'Зелёное яблоко', 50, 10),
+        Product('Красные яблоки', 'Яблоко', 70, 5),
+        Product('Банан', 'Жёлтые бананы', 30, 15)
+    ])
+
+    expected_products = """Яблоко, 50 руб. Остаток: 10 шт.
+Красные яблоки, 70 руб. Остаток: 5 шт.
+Банан, 30 руб. Остаток: 15 шт.\n"""
+
+    actual_products = category.new_list_products()
+    assert actual_products == expected_products
