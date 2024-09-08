@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a1cfe2c3-0e76-4051-9f17-5c80a441417d" name="Changes" comment="start project1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/tests/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Category_end_Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Category_end_Product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_Category_end_Product.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_Category.TestCategory.executor": "Run",
+    "Python tests.Python tests for test_Category.TestCategory.test_add_product.executor": "Run",
+    "Python tests.Python tests for test_Category.TestCategory.test_init.executor": "Run",
+    "Python tests.Python tests for test_Category.TestCategory.test_products.executor": "Run",
+    "Python tests.Python tests for test_Category.TestCategory.test_products_property.executor": "Run",
+    "Python tests.Python tests for test_Category.test_init.executor": "Run",
+    "Python tests.Python tests for test_Category.test_products_property.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestAddProduct.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategory.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategory.test_add_product.executor": "Run",
@@ -59,24 +62,61 @@
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_category_init.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_count.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.TestCategoryAndProduct.test_product_init.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.TestProductsProperty.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_add_product.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_category_count.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_invalid_prices.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_new_list_products.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_new_product.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_new_product.test_add_product.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_new_product.test_add_product.test_valid_prices.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_product_count.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_products.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_valid_prices.executor": "Run",
+    "Python tests.Python tests for test_Category_end_Product.test_valid_prices.test_add_product.executor": "Run",
+    "Python tests.Python tests for test_Product.test_new_product.executor": "Run",
+    "Python tests.Python tests for test_Product.test_valid_prices.executor": "Run",
+    "Python tests.Python tests for tests.test_Category.TestCategory.test_add_product.executor": "Run",
+    "Python tests.Python tests for tests.test_Category.TestCategory.test_init.executor": "Run",
+    "Python tests.Python tests for tests.test_Category.TestCategory.test_products_property.executor": "Run",
+    "Python tests.Python tests in test_Category.py.executor": "Run",
     "Python tests.Python tests in test_Category_end_Product.py.executor": "Run",
     "Python.Category.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "Python.read_json.executor": "Run",
+    "Python.tren.executor": "Run",
+    "Python.tren_category.executor": "Run",
+    "Python.tren_product.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature/home__work__14__2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_OOP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
@@ -99,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategory" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category.TestCategory" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +150,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategory&quot;" />
+      <option name="_new_target" value="&quot;test_Category.TestCategory&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategory.test_add_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category.TestCategory.test_add_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +165,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategory.test_add_product&quot;" />
+      <option name="_new_target" value="&quot;test_Category.TestCategory.test_add_product&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.TestCategory.test_category_and_product_count" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category.TestCategory.test_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +180,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.TestCategory.test_category_and_product_count&quot;" />
+      <option name="_new_target" value="&quot;test_Category.TestCategory.test_init&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Category_end_Product.test_add_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Category.TestCategory.test_products_property" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,32 +195,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.test_add_product&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Category_end_Product.test_new_list_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject_OOP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Category_end_Product.test_new_list_products&quot;" />
+      <option name="_new_target" value="&quot;test_Category.TestCategory.test_products_property&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.test_new_list_products" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.test_add_product" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategory.test_category_and_product_count" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategory.test_add_product" />
-        <item itemvalue="Python tests.Python tests for test_Category_end_Product.TestCategory" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python tests.Python tests for test_Category.TestCategory" />
+        <item itemvalue="Python tests.Python tests for test_Category.TestCategory.test_add_product" />
+        <item itemvalue="Python tests.Python tests for test_Category.TestCategory.test_products_property" />
+        <item itemvalue="Python tests.Python tests for test_Category.TestCategory.test_init" />
       </list>
     </recent_temporary>
   </component>

@@ -1,3 +1,4 @@
+
 class Category:
     """Класс для представления категории продуктов."""
 
@@ -17,19 +18,15 @@ class Category:
         Category.category_count += 1
         Category.product_count += len(products)
 
-    @property
-    def products(self):
-        """Возвращает список продуктов в данной категории."""
-        return self.__products
-
     def add_product(self, product):
         """Добавляет продукт в данную категорию."""
         self.__products.append(product)
         Category.product_count += 1
 
-    def new_list_products(self):
+    @property
+    def products(self):
         """Формирует строку с информацией о продуктах в данной категории."""
         products_string = ""
-        for product in self.products:
+        for product in self.__products:
             products_string += f"{product.name}, {product.price} руб. Остаток: {product.quantity} шт.\n"
         return products_string
