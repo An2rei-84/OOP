@@ -19,10 +19,9 @@ class Product:
 
     def __add__(self, other):
         """ Полная стоимость всех товаров на складе."""
-        if isinstance(other, Product):
-            return self.price * self.quantity + other.price * other.quantity
-        else:
-            raise ValueError("Оба аргумента должны быть объектами класса Product")
+        if isinstance(other, self.__class__):
+            return (self.__price * self.quantity) + (other.price * other.quantity)
+        raise TypeError
 
     @classmethod
     def new_product(cls, product_dict):
