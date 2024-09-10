@@ -13,6 +13,17 @@ class Product:
         self.__price = price
         self.quantity = quantity
 
+    def __str__(self):
+        """Метод для строкового отображения по шаблону"""
+        return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт.\n"
+
+    def __add__(self, other):
+        """ Полная стоимость всех товаров на складе."""
+        if isinstance(other, Product):
+            return self.price * self.quantity + other.price * other.quantity
+        else:
+            raise ValueError("Оба аргумента должны быть объектами класса Product")
+
     @classmethod
     def new_product(cls, product_dict):
         """Создает новый объект Product из словаря параметров."""

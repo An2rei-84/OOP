@@ -28,5 +28,12 @@ class Category:
         """Формирует строку с информацией о продуктах в данной категории."""
         products_string = ""
         for product in self.__products:
-            products_string += f"{product.name}, {product.price} руб. Остаток: {product.quantity} шт.\n"
+            products_string += f"{product}"
         return products_string
+
+    def __str__(self):
+        """ Рассчитывает общее количество товаров на складе (quantity)
+            для каждого продукта в приватном атрибуте products"""
+
+        total_quantity = sum(product.quantity for product in self.__products)
+        return f"{self.name}, Количество продуктов: {total_quantity} шт."
