@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1cfe2c3-0e76-4051-9f17-5c80a441417d" name="Changes" comment="start project1 15_1">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lawnGrass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartphone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+    <list default="true" id="a1cfe2c3-0e76-4051-9f17-5c80a441417d" name="Changes" comment="start project1 16_1">
+      <change afterPath="$PROJECT_DIR$/src/BaseProduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MixinClasses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_BaseProduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_MixinClasses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/tests/.coverage" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/home_work_15_1" />
+        <entry key="$PROJECT_DIR$" value="feature/home_work_16_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_BaseProduct.TestBaseProduct.executor": "Run",
+    "Python tests.Python tests for test_BaseProduct.TestBaseProduct.test_abstract_method.executor": "Run",
+    "Python tests.Python tests for test_BaseProduct.test_abstract_method.executor": "Run",
+    "Python tests.Python tests for test_BaseProduct.test_base_product_abstract_method.executor": "Run",
     "Python tests.Python tests for test_Category.TestCategory.executor": "Run",
     "Python tests.Python tests for test_Category.TestCategory.test_add_product.executor": "Run",
     "Python tests.Python tests for test_Category.TestCategory.test_empty_list.executor": "Run",
@@ -81,6 +85,13 @@
     "Python tests.Python tests for test_Category_end_Product.test_products.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_valid_prices.executor": "Run",
     "Python tests.Python tests for test_Category_end_Product.test_valid_prices.test_add_product.executor": "Run",
+    "Python tests.Python tests for test_MixinClasses.TestMixinClasses.test_MixinObject.executor": "Run",
+    "Python tests.Python tests for test_MixinClasses.TestMixinClasses.test_attributes.executor": "Run",
+    "Python tests.Python tests for test_MixinClasses.TestMixinObject.test_MixinObject.executor": "Run",
+    "Python tests.Python tests for test_MixinClasses.TestMixinObject.test_attributes.executor": "Run",
+    "Python tests.Python tests for test_MixinClasses.test_MixinObject.executor": "Run",
+    "Python tests.Python tests for test_MixinClasses.test_attributes.executor": "Run",
+    "Python tests.Python tests for test_MixinClasses.test_repr.executor": "Run",
     "Python tests.Python tests for test_Product.TestCategory.test_init.executor": "Run",
     "Python tests.Python tests for test_Product.TestCategory.test_products.executor": "Run",
     "Python tests.Python tests for test_Product.TestCategory.test_products_property.executor": "Run",
@@ -100,6 +111,9 @@
     "Python tests.Python tests in test_Product.py.executor": "Run",
     "Python tests.Python tests in test_smartphone.py.executor": "Run",
     "Python.Category.executor": "Run",
+    "Python.MixinClasses.executor": "Run",
+    "Python.Product.executor": "Run",
+    "Python.lawnGrass.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "Python.read_json.executor": "Run",
@@ -109,11 +123,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/home__work__16__1",
+    "git-widget-placeholder": "feature/home__work__16__2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
@@ -158,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_lawnGrass.TestLawnGrass.test_lawn_grass_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_BaseProduct.TestBaseProduct" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,11 +183,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lawnGrass.TestLawnGrass.test_lawn_grass_name&quot;" />
+      <option name="_new_target" value="&quot;test_BaseProduct.TestBaseProduct&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_smartphone.TestSmartphone.test_empty_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_BaseProduct.TestBaseProduct.test_abstract_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +198,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_smartphone.TestSmartphone.test_empty_list&quot;" />
+      <option name="_new_target" value="&quot;test_BaseProduct.TestBaseProduct.test_abstract_method&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_smartphone.TestSmartphone.test_smartphone_model" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_BaseProduct.test_abstract_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,11 +213,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_smartphone.TestSmartphone.test_smartphone_model&quot;" />
+      <option name="_new_target" value="&quot;test_BaseProduct.test_abstract_method&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_smartphone.test_smartphone_model" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_BaseProduct.test_base_product_abstract_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,17 +228,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_smartphone.test_smartphone_model&quot;" />
+      <option name="_new_target" value="&quot;test_BaseProduct.test_base_product_abstract_method&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_lawnGrass.TestLawnGrass.test_lawn_grass_name" />
-        <item itemvalue="Python tests.Python tests for test_smartphone.TestSmartphone.test_empty_list" />
-        <item itemvalue="Python tests.Python tests for test_smartphone.TestSmartphone.test_smartphone_model" />
-        <item itemvalue="Python tests.Python tests for test_smartphone.test_smartphone_model" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python tests.Python tests for test_BaseProduct.TestBaseProduct" />
+        <item itemvalue="Python tests.Python tests for test_BaseProduct.TestBaseProduct.test_abstract_method" />
+        <item itemvalue="Python tests.Python tests for test_BaseProduct.test_base_product_abstract_method" />
+        <item itemvalue="Python tests.Python tests for test_BaseProduct.test_abstract_method" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +306,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725904782429</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="start project1 16_1">
+      <option name="closed" value="true" />
+      <created>1725984347105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725984347105</updated>
+    </task>
+    <task id="LOCAL-00008" summary="start project1 16_1">
+      <option name="closed" value="true" />
+      <created>1725984387958</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725984387958</updated>
+    </task>
+    <task id="LOCAL-00009" summary="start project1 16_1">
+      <option name="closed" value="true" />
+      <created>1725989027170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725989027170</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -300,6 +338,7 @@
     <MESSAGE value="start project1" />
     <MESSAGE value="start project1 fix1" />
     <MESSAGE value="start project1 15_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="start project1 15_1" />
+    <MESSAGE value="start project1 16_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="start project1 16_1" />
   </component>
 </project>
