@@ -1,5 +1,8 @@
+from src.BaseProduct import BaseProduct
+from src.MixinClasses import MixinObject
 
-class Product:
+
+class Product(BaseProduct, MixinObject):
     """Класс для представления продукта"""
     name: str
     description: str
@@ -12,6 +15,7 @@ class Product:
         self.description = description
         self.__price = price
         self.quantity = quantity
+        super().__init__()
 
     def __str__(self):
         """Метод для строкового отображения по шаблону"""
