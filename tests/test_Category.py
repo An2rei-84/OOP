@@ -14,15 +14,17 @@ class TestCategory(unittest.TestCase):
     def test_init(self):
         products = [self.product1, self.product2, self.product3]
         category = Category("Смартфоны",
-                            "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+                            "Смартфоны, как средство не только коммуникации,"
+                            " но и получения дополнительных функций для удобства жизни",
                             products)
         assert category.name == "Смартфоны"
-        assert category.description == "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни"
+        assert category.description == ("Смартфоны, как средство не только коммуникации,"
+                                        " но и получения дополнительных функций для удобства жизни")
         self.assertIsInstance(category.products, str)
 
     def test_products(self):
         product1 = Product("Телевизор", "4K", 10000, 8)
-        product2 = Product("Смартфон", "100MP", 5000,9)
+        product2 = Product("Смартфон", "100MP", 5000, 9)
         category = Category("Электроника", "Различные электронные устройства", [product1, product2])
         expected_category = Category('Электроника', 'Различные электронные устройства', [product1, product2])
 
@@ -36,7 +38,8 @@ class TestCategory(unittest.TestCase):
         product3 = Product("Xiaomi Redmi Note 11", "1024GB, Синий", 31000.0, 14)
         products = [product1, product2, product3]
         category = Category("Смартфоны",
-                            "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+                            "Смартфоны, как средство не только коммуникации,"
+                            " но и получения дополнительных функций для удобства жизни",
                             products)
 
         expected_output = "\n".join(
@@ -51,7 +54,8 @@ class TestCategory(unittest.TestCase):
         product3 = Product("Xiaomi Redmi Note 11", "1024GB, Синий", 31000.0, 14)
         products = [product1, product2, product3]
         category = Category("Смартфоны",
-                            "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+                            "Смартфоны, как средство не только коммуникации,"
+                            " но и получения дополнительных функций для удобства жизни",
                             products)
 
         new_product = Product("Huawei P50 Pro", "128GB, Черный", 90000.0, 10)
@@ -65,10 +69,18 @@ class TestCategory(unittest.TestCase):
         product3 = Product("Xiaomi Redmi Note 11", "1024GB, Синий", 31000.0, 14)
         products = [product1, product2, product3]
         category = Category("Смартфоны",
-                            "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+                            "Смартфоны, как средство не только коммуникации,"
+                            " но и получения дополнительных функций для удобства жизни",
                             products)
 
-        expected_output = f"Смартфоны, Количество продуктов: 27 шт."
+        expected_output = "Смартфоны, Количество продуктов: 27 шт."
         actual_output = str(category)
         self.assertEqual(expected_output, actual_output)
 
+    def test_no_products(self):
+
+        products = []
+
+        empty_category = Category("Пустой", "Список", products)
+        result = Category.middle_price(empty_category)
+        self.assertEqual(result, 0)
