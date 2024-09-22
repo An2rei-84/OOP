@@ -20,6 +20,16 @@ class Category:
         Category.category_count += 1
         Category.product_count += len(products)
 
+    def middle_price(self):
+        """Подсчитывает средний ценник всех товаров."""
+        try:
+            total_price = sum([product.price for product in self.__products])
+            number_of_products = sum([product.quantity for product in self.__products])
+            return total_price / number_of_products
+
+        except ZeroDivisionError:
+            return 0
+
     def add_product(self, product):
         """Добавляет продукт в данную категорию."""
         if isinstance(product, Product):

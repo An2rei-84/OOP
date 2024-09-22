@@ -20,4 +20,3 @@ def load_data_from_json(filepath):
 # print(load_data_from_json("..\\data\\products.json"))
 # print(Category.product_count)
 # print(Category.category_count)
-
